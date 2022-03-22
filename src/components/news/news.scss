@@ -1,0 +1,15 @@
+.news {
+    width: 70vw;
+    max-width: 1000px;
+    margin: 60px auto 0;
+    > h1 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.3em;
+    }
+    &_main {
+        margin-top: 3vw;
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+}

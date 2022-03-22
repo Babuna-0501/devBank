@@ -1,0 +1,18 @@
+.subnav {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(0, 83, 164) 0px, rgb(23, 129, 247));
+    .target{
+        animation: flowing 18s linear infinite;
+        transform: translateX(100%);
+        padding-top: 15px;
+        color: rgb(255, 255, 255);;
+        white-space: nowrap;
+    }
+    
+    @keyframes flowing {
+        100% {
+        transform: translateX(-100%);
+        }
+    }
+}
